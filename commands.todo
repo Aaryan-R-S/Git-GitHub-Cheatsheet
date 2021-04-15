@@ -1,0 +1,39 @@
+--OPEN GITBASH HERE--
+
+1. All commands:
+☐ git
+Quit something when stuck:
+    ☐ q 
+
+2. Configuration commands:
+☐ git config
+☐ git config --list
+☐ git config user.name
+☐ git config user.email
+
+3. Path and files:
+☐ pwd
+☐ cd "/d/My Files/Complete Git Tutorial"
+
+4. GIT Repository:
+    4.1 First check whether it is not a GIT repo by:
+        ☐ git status
+    4.2 Initialize a new repository (in the same folder):
+        ☐ git init
+    4.3 Select files to be placed in Staging area:
+        (Note: Only files in staging area will be committed... while other files won't even if they are modified)
+        ☐ git add --a
+        OR
+        ☐ git add <filename>
+    4.4 Commit files to Repository from stage area:
+        ☐ git commit -m "Initial Commit"
+    4.5 Track changes:
+        See changes after last commit:
+            ☐ git status
+        See all commits till now:
+            ☐ git log
+    4.6 Make changes:
+        ☐ Loop back to 4.3
+
+    4.7 Remove git tracking in folder:
+        ☐ rm -rf .git

@@ -22,7 +22,8 @@ Quit something when stuck:
         ☐ git init
     4.3 Select files to be placed in Staging area:
         (Note: Only files in staging area will be committed... while other files won't even if they are modified)
-        ☐ git add --a
+        ☐ git add --a 
+        ☐ git add . 
         OR
         ☐ git add <filename>
     4.4 Commit files to Repository from stage area:
@@ -37,3 +38,7 @@ Quit something when stuck:
 
     4.7 Remove git tracking in folder:
         ☐ rm -rf .git
+    
+5. Create gitignore file:
+    5.1 ☐ touch .gitignore
+    5.2 Enter the full name of file in .gitignore to be ignored!

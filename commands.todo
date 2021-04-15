@@ -42,3 +42,15 @@ Quit something when stuck:
 5. Create gitignore file:
     5.1 ☐ touch .gitignore
     5.2 Enter the full name of file in .gitignore to be ignored!
+        ☐ errors.log
+    5.2 Enter the extension of files in .gitignore to be ignored!
+        ☐ *.log
+    5.3 Enter the name of folder in .gitignore to be ignored!
+        ☐ no tracking/
+        (Note: all subfolders with this name shall be ignored)
+
+        ☐ /no tracking/ 
+        (this is for the one folder at the given address only)
+
+        ☐ web/no tracking/ 
+        (for subfolders)

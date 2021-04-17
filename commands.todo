@@ -26,23 +26,23 @@ Quit something when stuck:
         ☐ git add . 
         OR:
         ☐ git add <filename>
-
     4.4 Commit files to Repository from stage area:
         ☐ git commit -m "Initial Commit"
         Commit Directly by skipping stage area:
         ☐ git commit -a -m "Direct Commit"
-
     4.5 Track changes:
         See changes after last commit:
             ☐ git status
         See all commits till now:
             ☐ git log
-            
     4.6 Make changes:
         ☐ Loop back to 4.3
     4.7 Remove git tracking in folder:
         ☐ rm -rf .git
-    
+    4.8 Check differences:
+        ☐ git diff             (Note: diff b/w stage area and current directory)
+        ☐ git diff --staged    (Note: diff b/w previous commit and current directory)
+
 5. Create gitignore file:
     5.1:
         ☐ touch .gitignore
@@ -50,11 +50,7 @@ Quit something when stuck:
         ☐ errors.log
     5.2 Enter the extension of files in .gitignore to be ignored:
         ☐ *.log
-
     5.3 Enter the name of folder in .gitignore to be ignored:
-        ☐ no tracking/
-        (Note: all subfolders with this name shall be ignored)
-        ☐ /no tracking/ 
-        (Note: this is for the one folder at the given address only)
-        ☐ web/no tracking/ 
-        (Note: for subfolders)
+        ☐ no tracking/     (Note: all subfolders with this name shall be ignored)
+        ☐ /no tracking/    (Note: this is for the one folder at the given address only)
+        ☐ web/no tracking/ (Note: for subfolders)

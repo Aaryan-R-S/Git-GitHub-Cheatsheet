@@ -70,3 +70,9 @@ Quit something when stuck:
         ☐ git rm <filename>
     6.2 Rename files:
         ☐ git mv <filenameOld> <filenameNew>
+    
+7. Restore:
+    7.1 Match a file to its previous commit:
+        ☐ git checkout -- <filename>
+    7.2 Go to previous commit all files:
+        ☐ git checkout -- f

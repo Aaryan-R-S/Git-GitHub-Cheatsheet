@@ -2,6 +2,7 @@
 
 1. All commands:
 ☐ git
+☐ git clone <link> <folderNameOptional>
 Quit something when stuck:
     ☐ q 
 

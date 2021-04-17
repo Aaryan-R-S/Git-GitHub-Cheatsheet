@@ -27,6 +27,8 @@ Quit something when stuck:
         ☐ git add . 
         OR:
         ☐ git add <filename>
+        Remove from stage:
+            ☐ git restore --staged <filename>
     4.4 Commit files to Repository from stage area:
         ☐ git commit -m "Initial Commit"
         Commit Directly by skipping stage area:
@@ -35,7 +37,12 @@ Quit something when stuck:
         See changes after last commit:
             ☐ git status
         See all commits till now:
-            ☐ git log
+            ☐ git log          (See commits and their details)
+            ☐ git log -p       (See changes alogwith commits)
+            ☐ git log -p -n    (See last n commits and their changes)
+            ☐ git log --pretty=short      (See commits details in short)
+            ☐ git log --since=2.months    (See commits in last 2 months/days/weeks/years)
+            ☐ git log --pretty=format:"%h -- %an"     (See commits details in specified formats, see git SCM website)
         Untrack files which were initially tracked:
             ☐ git rm --cached <filename>
     4.6 Make changes:

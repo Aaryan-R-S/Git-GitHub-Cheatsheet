@@ -35,9 +35,11 @@ Quit something when stuck:
             ☐ git status
         See all commits till now:
             ☐ git log
+        Untrack files which were initially tracked:
+            ☐ git rm --cached <filename>
     4.6 Make changes:
         ☐ Loop back to 4.3
-    4.7 Remove git tracking in folder:
+    4.7 Remove git tracking:
         ☐ rm -rf .git
     4.8 Check differences:
         ☐ git diff             (Note: diff b/w stage area and current directory)
@@ -54,3 +56,9 @@ Quit something when stuck:
         ☐ no tracking/     (Note: all subfolders with this name shall be ignored)
         ☐ /no tracking/    (Note: this is for the one folder at the given address only)
         ☐ web/no tracking/ (Note: for subfolders)
+    
+6. Files:
+    6.1 Delete files:
+        ☐ git rm <filename>
+    6.2 Rename files:
+        ☐ git mv <filenameOld> <filenameNew>

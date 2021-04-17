@@ -76,3 +76,15 @@ Quit something when stuck:
         ☐ git checkout -- <filename>
     7.2 Go to previous commit all files:
         ☐ git checkout -- f
+
+8. Remote:
+    ☐ git remote
+    ☐ git remote add origin https://github.com/Aaryan-R-S/Git-Tutorial-Demo.git
+    ☐ git remote -v
+    ☐ ssh-keygen -t ed25519 -C "aaryan20004@iiitd.ac.in"
+    ☐ eval `ssh-agent -s`
+    ☐ ssh-add ~/.ssh/id_ed25519
+    ☐ clip < ~/.ssh/id_ed25519.pub
+    ☐ Paste the key in the SSH key section of settings by selecting new SSH key (name the key as device name+)
+    ☐ git push -u origin master
+    ☐ Done

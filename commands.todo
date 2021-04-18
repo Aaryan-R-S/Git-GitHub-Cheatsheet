@@ -100,6 +100,9 @@ Quit something when stuck:
     7.7 Delete branch:
         ☐ git checkout -d <branchname>   (Note: Gives warning if not merged with master)
         ☐ git checkout -D <branchname>   (Note: Do not gives warning)
+    7.8 Check merged:
+        ☐ git branch --merged
+        ☐ git branch --no-merged
 
 
 8. Remote:

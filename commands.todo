@@ -82,6 +82,14 @@ Quit something when stuck:
         ☐ git checkout -- <filename>
     7.2 Go to previous commit all files:
         ☐ git checkout -- f
+    7.3 See all branches:
+        ☐ git branch
+    7.4 Make new branch:
+        ☐ git checkout -b <branchname>
+    7.5 Shift to an existing branch:
+        ☐ git checkout <branchname>
+        ☐ git checkout master
+
 
 8. Remote:
     ☐ git remote

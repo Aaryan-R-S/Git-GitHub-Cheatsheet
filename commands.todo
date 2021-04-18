@@ -89,7 +89,7 @@ Quit something when stuck:
     7.5 Shift to an existing branch:
         ☐ git checkout <branchname>
         ☐ git checkout master
-    7.6 Merge a branch with master:
+    7.6 Merge a branch with master(resove conflicts too):
         ☐ git checkout master
         ☐ git merge <branchname>
 

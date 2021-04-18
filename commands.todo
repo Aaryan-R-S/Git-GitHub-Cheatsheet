@@ -89,6 +89,9 @@ Quit something when stuck:
     7.5 Shift to an existing branch:
         ☐ git checkout <branchname>
         ☐ git checkout master
+    7.6 Merge a branch with master:
+        ☐ git checkout master
+        ☐ git merge <branchname>
 
 
 8. Remote:

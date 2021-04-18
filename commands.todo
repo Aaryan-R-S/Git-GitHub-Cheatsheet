@@ -11,6 +11,9 @@ Quit something when stuck:
 ☐ git config --list
 ☐ git config user.name
 ☐ git config user.email
+☐ git config --global alias.X XXXX
+   Ex. ☐ git config --global alias.st status
+   Ex. ☐ git config --global alias.unstage 'restore --staged --'
 
 3. Path and files:
 ☐ pwd
@@ -29,6 +32,7 @@ Quit something when stuck:
         ☐ git add <filename>
         Remove from stage:
             ☐ git restore --staged <filename>
+            ☐ git unstage <filename>
     4.4 Commit files to Repository from stage area:
         ☐ git commit -m "Initial Commit"
         Commit Directly by skipping stage area:
@@ -81,6 +85,7 @@ Quit something when stuck:
     ☐ git remote
     ☐ git remote add origin https://github.com/Aaryan-R-S/Git-Tutorial-Demo.git
     ☐ git remote -v
+    Search SSH key github:
     ☐ ssh-keygen -t ed25519 -C "aaryan20004@iiitd.ac.in"
     ☐ eval `ssh-agent -s`
     ☐ ssh-add ~/.ssh/id_ed25519

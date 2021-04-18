@@ -13,6 +13,7 @@ Quit something when stuck:
 ☐ git config user.email
 ☐ git config --global alias.X XXXX
    Ex. ☐ git config --global alias.st status
+   Ex. ☐ git config --global alias.last 'log -p -1'
    Ex. ☐ git config --global alias.unstage 'restore --staged --'
 
 3. Path and files:
@@ -41,6 +42,7 @@ Quit something when stuck:
         See changes after last commit:
             ☐ git status
         See all commits till now:
+            ☐ git last         (See last commit [aliased])
             ☐ git log          (See commits and their details)
             ☐ git log -p       (See changes alogwith commits)
             ☐ git log -p -n    (See last n commits and their changes)

@@ -92,6 +92,14 @@ Quit something when stuck:
     7.6 Merge a branch with master(resove conflicts too):
         ☐ git checkout master
         ☐ git merge <branchname>
+        if conflicts:
+            ☐ resolve conflicts by opening files
+            ☐ git add .
+            ☐ git commit -m "msg"
+            ☐ git merge <branchname>
+    7.7 Delete branch:
+        ☐ git checkout -d <branchname>   (Note: Gives warning if not merged with master)
+        ☐ git checkout -D <branchname>   (Note: Do not gives warning)
 
 
 8. Remote:

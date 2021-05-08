@@ -114,7 +114,7 @@ Quit something when stuck:
     ☐ eval `ssh-agent -s`
     ☐ ssh-add ~/.ssh/id_ed25519
     ☐ clip < ~/.ssh/id_ed25519.pub
-    ☐ Paste the key in the SSH key section of settings by selecting new SSH key (name the key as device name+)
+    ☐ Paste the key in the SSH key section of settings by selecting new SSH key at GitHub (name the key as device name+)
     ☐ git push -u origin master 
     ☐ git push origin <branchname> (Add a branch)
     ☐ git push -d origin <branchname> (Delete a branch)

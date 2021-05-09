@@ -8,7 +8,7 @@
   <h3 align="center">Git & GitHub Cheatsheet</h3>
 
   <p align="center">
-    An awesome Cheatsheet to jumpstart your projects!
+    An awesome Cheatsheet to kickstart your projects!
     <br />
     <a href="https://github.com/Aaryan-R-S/Git-GitHub-Cheatsheet"><strong>Explore the docs »</strong></a>
     <br />
@@ -47,7 +47,7 @@
 
 ![Product Name Screen Shot][product-screenshot]
 
-There are many Git & GitHub Cheatsheets available on internet, however, I didn't find one that really suit my needs so I created this  one. I want to create a cheatsheet so amazing that'll be containing every important command you ever need.
+There are many Git & GitHub Cheatsheets available on internet, however, I didn't find one that really suit my needs so I created this  one. I wanted to create a cheatsheet so amazing that'll be containing every important command you ever need.
 
 Here's why:
 * You shouldn't be doing the same tasks over and over like revisiting long and boring documentations for refering the commands.
@@ -85,8 +85,8 @@ To get a local copy up and running follow these simple steps.
 ## Roadmap
 
 - Open the `commands.todo` ([Click Here](https://github.com/Aaryan-R-S/Git-GitHub-Cheatsheet/blob/master/commands.todo))
-- Ignore other files and folders as they are for explanation purpose for `.gitignore`
-- You are redy to go!
+- Ignore other files and folders as they are for explanation purpose for how `.gitignore` works
+- Now, you are ready to go!
 
 
 <!-- LICENSE -->
@@ -98,7 +98,7 @@ See `LICENSE` for more information.
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [Git & GitHub Tutorial: Code With Harry](https://youtube.com/playlist?list=PLu0W_9lII9agwhy658ZPA0MTStKUJTWPi)
+* [Git & GitHub Tutorial @Code With Harry](https://youtube.com/playlist?list=PLu0W_9lII9agwhy658ZPA0MTStKUJTWPi)
 * [Flaticon](https://flaticon.com)
 
 

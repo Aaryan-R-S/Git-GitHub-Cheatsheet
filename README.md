@@ -93,6 +93,7 @@ To get a local copy up and running follow these simple steps.
 ## License
 
 Feel free to clone this repository and use/edit it according to your needs.
+<br>
 See `LICENSE` for more information.
 
 

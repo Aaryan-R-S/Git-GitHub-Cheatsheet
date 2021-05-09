@@ -118,6 +118,8 @@ Quit something when stuck:
     ☐ git push -u origin master 
     ☐ git push origin <branchname> (Add a branch)
     ☐ git push -d origin <branchname> (Delete a branch)
+    Update local master with remote master:
+        ☐ git pull --rebase origin master
     Change remote origin:
         ☐ git remote set-url origin git://new.url.here    
         
